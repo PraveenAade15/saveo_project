@@ -5,13 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import com.bumptech.glide.Glide
 import com.praveen.saveoproject.R
 import com.praveen.saveoproject.databinding.FragmentDetailsBinding
-
 import com.praveen.saveoproject.model.MovieModel
 import com.praveen.saveoproject.utils.Constant.MOVIE_URL
 

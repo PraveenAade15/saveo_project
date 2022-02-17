@@ -1,7 +1,6 @@
 package com.praveen.saveoproject.model
 
 import com.google.gson.annotations.SerializedName
-import com.praveen.saveoproject.model.MovieModel
 
 data class MovieResponse(
     @SerializedName("page")

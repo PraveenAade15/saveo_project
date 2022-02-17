@@ -13,7 +13,6 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import com.praveen.saveoproject.R
 import com.praveen.saveoproject.databinding.FragmentLandingBinding
-
 import com.praveen.saveoproject.infra.api.OnCardClicked
 import com.praveen.saveoproject.infra.api.Status
 import com.praveen.saveoproject.model.MovieModel
@@ -24,6 +23,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+
 
 @AndroidEntryPoint
 class LandingFragment : Fragment(), OnCardClicked {
